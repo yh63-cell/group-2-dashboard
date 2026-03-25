@@ -81,10 +81,10 @@ st.markdown("""
 @st.cache_data
 def load_data():
     possible_paths = [
-        "../src/data/sony_cleaned_data.csv",
-        "../sony_cleaned_data.csv",
-        "src/data/sony_cleaned_data.csv",
-        "sony_cleaned_data.csv"
+        "../src/data/sony_sentiment_scored.csv",
+        "../sony_sentiment_scored.csv",
+        "src/data/sony_sentiment_scored.csv",
+        "sony_sentiment_scored.csv"
     ]
     
     df = None
@@ -94,7 +94,7 @@ def load_data():
             break
             
     if df is None:
-        df = pd.DataFrame(columns=['product', 'clean_text'])
+        df = pd.DataFrame(columns=['product', 'clean_text', 'vader_score'])
     
     productsList = []
     
@@ -105,7 +105,13 @@ def load_data():
             if pd.isna(name): continue
             
             volume = len(group)
-            sentiment_score = 50 + (volume % 40)
+            
+            # Use the real NLP VADER sentiment scores (-1 to 1) mapped to (0 to 100)
+            if 'vader_score' in group.columns:
+                vader_mean = group['vader_score'].mean()
+                sentiment_score = int((vader_mean + 1) / 2 * 100)
+            else:
+                sentiment_score = 50 + (volume % 40)
             
             productsList.append({
                 'Product Segment': str(name),
