@@ -168,28 +168,34 @@ def main():
     c1, c2 = st.columns([6, 4])
     
     with c1:
-        st.markdown("##### Sentiment Score Distribution (Box Plot)")
-        # Plotly box plot to match the teammate's Notebook "Sentiment Score Distribution"
-        fig_box = px.box(df_raw, x="vader_score", y="product", points="all",
-                         color_discrete_sequence=["#1f2937"])
-        fig_box.update_layout(
+        st.markdown("##### Sentiment Distribution by Segment")
+        # Stacked 100% Bar Chart to replace the cluttered Box Plot
+        df_dist = df_raw.groupby(['product', 'sentiment_category']).size().reset_index(name='count')
+        df_dist['Percentage'] = df_dist.groupby('product')['count'].transform(lambda x: x / x.sum() * 100)
+        
+        fig_bar = px.bar(df_dist, x="Percentage", y="product", color="sentiment_category", orientation='h',
+                         category_orders={"sentiment_category": ["Negative", "Neutral", "Positive"]},
+                         color_discrete_map={"Positive": "#1f2937", "Neutral": "#9ca3af", "Negative": "#ef4444"})
+        fig_bar.update_layout(
             plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
             margin=dict(l=0, r=0, t=10, b=0),
-            xaxis=dict(showgrid=True, gridcolor='#f3f4f6', title='VADER Sentiment (-1 to +1)'),
+            xaxis=dict(showgrid=True, gridcolor='#f3f4f6', title='Relative Distribution (%)'),
             yaxis=dict(showgrid=False, title=''),
+            showlegend=False,
             height=320
         )
-        st.plotly_chart(fig_box, use_container_width=True, config={'displayModeBar': False})
+        st.plotly_chart(fig_bar, use_container_width=True, config={'displayModeBar': False})
 
     with c2:
         st.markdown("##### Overall Sentiment Classification")
-        # Match Teammate's Pie Chart
+        # Match Teammate's Pie Chart but with unified color palette
         sentiment_counts = df_raw['sentiment_category'].value_counts().reset_index()
         sentiment_counts.columns = ['Status', 'Count']
         fig_pie = px.pie(sentiment_counts, names="Status", values="Count", hole=0.45,
                          hover_data=["Status"],
                          color="Status", 
-                         color_discrete_map={"Positive": "#10b981", "Neutral": "#9ca3af", "Negative": "#ef4444"})
+                         category_orders={"Status": ["Negative", "Neutral", "Positive"]},
+                         color_discrete_map={"Positive": "#1f2937", "Neutral": "#9ca3af", "Negative": "#ef4444"})
         fig_pie.update_layout(
             plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
             margin=dict(l=0, r=0, t=10, b=0),
@@ -208,7 +214,7 @@ def main():
         df_source['Source'] = df_source['is_support_source'].map({True: 'Official PlayStation / Sony Support', False: 'External / Third-Party Platforms'})
         
         fig_src = px.bar(df_source, x='vader_score', y='Source', orientation='h', color='Source',
-                         color_discrete_map={'Official PlayStation / Sony Support': '#1f2937', 'External / Third-Party Platforms': '#6366f1'})
+                         color_discrete_map={'Official PlayStation / Sony Support': '#1f2937', 'External / Third-Party Platforms': '#9ca3af'})
         fig_src.update_layout(
             plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
             margin=dict(l=0, r=0, t=10, b=0), showlegend=False,
@@ -220,9 +226,9 @@ def main():
         
     with c4:
         st.markdown("##### Sentiment Volatility vs Text Length")
-        # Match teammate's scatter plot
+        # Match teammate's scatter plot with unified palettes
         fig_scat = px.scatter(df_raw, x="word_count", y="vader_score", color="sentiment_category",
-                              color_discrete_map={"Positive": "#10b981", "Neutral": "#9ca3af", "Negative": "#ef4444"},
+                              color_discrete_map={"Positive": "#1f2937", "Neutral": "#9ca3af", "Negative": "#ef4444"},
                               opacity=0.6)
         fig_scat.update_layout(
             plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
