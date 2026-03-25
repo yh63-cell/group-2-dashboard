@@ -164,50 +164,74 @@ def main():
 
     st.markdown("<hr style='border: none; border-top: 1px solid #e5e7eb; margin: 2rem 0;'>", unsafe_allow_html=True)
 
-    # Charts
+    # --- Integration of Teammate's Sentiment Visualizations (Plotly versions) ---
     c1, c2 = st.columns([6, 4])
     
     with c1:
-        st.markdown("### Sentiment Velocity by Segment")
-        # Minimalist Plotly Theme
-        df_chart = df_products.sort_values('Sentiment Core (0-100)', ascending=True)
-        fig1 = px.bar(df_chart, 
-                      y="Product Segment", 
-                      x="Sentiment Core (0-100)", 
-                      orientation='h',
-                      color_discrete_sequence=["#1f2937"]) # Dark minimalist color
-        
-        fig1.update_layout(
-            plot_bgcolor="rgba(0,0,0,0)",
-            paper_bgcolor="rgba(0,0,0,0)",
+        st.markdown("##### Sentiment Score Distribution (Box Plot)")
+        # Plotly box plot to match the teammate's Notebook "Sentiment Score Distribution"
+        fig_box = px.box(df_raw, x="vader_score", y="product", points="all",
+                         color_discrete_sequence=["#1f2937"])
+        fig_box.update_layout(
+            plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
             margin=dict(l=0, r=0, t=10, b=0),
-            xaxis=dict(showgrid=True, gridcolor='#f3f4f6', title=''),
+            xaxis=dict(showgrid=True, gridcolor='#f3f4f6', title='VADER Sentiment (-1 to +1)'),
             yaxis=dict(showgrid=False, title=''),
-            height=300
+            height=320
         )
-        # Highlight lowest product in red
-        colors = ['#ef4444' if prod == lowest_prod['Product Segment'] else '#1f2937' for prod in df_chart['Product Segment']]
-        fig1.update_traces(marker_color=colors, width=0.4)
-        
-        st.plotly_chart(fig1, use_container_width=True, config={'displayModeBar': False})
+        st.plotly_chart(fig_box, use_container_width=True, config={'displayModeBar': False})
 
     with c2:
-        st.markdown("### Portfolio Distribution")
-        fig2 = px.pie(df_products, 
-                      names="Product Segment", 
-                      values="Review Volume", 
-                      hole=0.5,
-                      color_discrete_sequence=["#111827", "#4b5563", "#9ca3af", "#d1d5db"])
-        
-        fig2.update_layout(
-            plot_bgcolor="rgba(0,0,0,0)",
-            paper_bgcolor="rgba(0,0,0,0)",
+        st.markdown("##### Overall Sentiment Classification")
+        # Match Teammate's Pie Chart
+        sentiment_counts = df_raw['sentiment_category'].value_counts().reset_index()
+        sentiment_counts.columns = ['Status', 'Count']
+        fig_pie = px.pie(sentiment_counts, names="Status", values="Count", hole=0.45,
+                         hover_data=["Status"],
+                         color="Status", 
+                         color_discrete_map={"Positive": "#10b981", "Neutral": "#9ca3af", "Negative": "#ef4444"})
+        fig_pie.update_layout(
+            plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
             margin=dict(l=0, r=0, t=10, b=0),
-            showlegend=True,
-            legend=dict(orientation="h", yanchor="bottom", y=-0.2, xanchor="center", x=0.5),
-            height=300
+            showlegend=True, legend=dict(orientation="h", yanchor="bottom", y=-0.2, xanchor="center", x=0.5),
+            height=320
         )
-        st.plotly_chart(fig2, use_container_width=True, config={'displayModeBar': False})
+        st.plotly_chart(fig_pie, use_container_width=True, config={'displayModeBar': False})
+        
+    st.markdown("<br>", unsafe_allow_html=True)
+    c3, c4 = st.columns(2)
+    
+    with c3:
+        st.markdown("##### Sentiment by Source Type")
+        # Match teammate's horizontal bar chart for Source
+        df_source = df_raw.groupby('is_support_source')['vader_score'].mean().reset_index()
+        df_source['Source'] = df_source['is_support_source'].map({True: 'Official PlayStation / Sony Support', False: 'External / Third-Party Platforms'})
+        
+        fig_src = px.bar(df_source, x='vader_score', y='Source', orientation='h', color='Source',
+                         color_discrete_map={'Official PlayStation / Sony Support': '#1f2937', 'External / Third-Party Platforms': '#6366f1'})
+        fig_src.update_layout(
+            plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
+            margin=dict(l=0, r=0, t=10, b=0), showlegend=False,
+            xaxis=dict(showgrid=True, gridcolor='#f3f4f6', title='Avg VADER Score'),
+            yaxis=dict(showgrid=False, title=''),
+            height=280
+        )
+        st.plotly_chart(fig_src, use_container_width=True, config={'displayModeBar': False})
+        
+    with c4:
+        st.markdown("##### Sentiment Volatility vs Text Length")
+        # Match teammate's scatter plot
+        fig_scat = px.scatter(df_raw, x="word_count", y="vader_score", color="sentiment_category",
+                              color_discrete_map={"Positive": "#10b981", "Neutral": "#9ca3af", "Negative": "#ef4444"},
+                              opacity=0.6)
+        fig_scat.update_layout(
+            plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
+            margin=dict(l=0, r=0, t=10, b=0), showlegend=False,
+            xaxis=dict(showgrid=True, gridcolor='#f3f4f6', title='Word Count'),
+            yaxis=dict(showgrid=True, gridcolor='#f3f4f6', title='VADER Score', range=[-1.1, 1.1]),
+            height=280
+        )
+        st.plotly_chart(fig_scat, use_container_width=True, config={'displayModeBar': False})
         
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("### Granular Data Matrix")
@@ -239,12 +263,13 @@ def main():
     with col_nlp2:
         st.markdown("##### Recent Critical Verbatims")
         
-        # Get 3 random reviews from the raw data
-        if not df_raw.empty and 'clean_text' in df_raw.columns:
-            # We filter out empty texts and take the first 3
-            sample_reviews = df_raw.dropna(subset=['clean_text']).head(3)
+        # Dynamically map to teammate's "Most Negative Sentiment Entries" chart
+        if not df_raw.empty and 'clean_text' in df_raw.columns and 'vader_score' in df_raw.columns:
+            # We filter for actual negative reviews and take the most severe 3
+            sample_reviews = df_raw[df_raw['vader_score'] < -0.2].sort_values('vader_score').head(3)
             for _, row in sample_reviews.iterrows():
                 text = str(row['clean_text'])
+                score = round(row['vader_score'], 2)
                 if len(text) > 130:
                     text = text[:130] + '...'
                     
