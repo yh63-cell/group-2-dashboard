@@ -222,10 +222,8 @@ def main():
             <span style="background: #dcfce7; color: #166534; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">✓ Reliable</span>
             <span style="background: #dcfce7; color: #166534; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">✓ Premium Feel</span>
             <span style="background: #dcfce7; color: #166534; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">✓ Sony Quality</span>
-            
             <span style="background: #fef08a; color: #854d0e; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">⚠ Pricey</span>
             <span style="background: #fef08a; color: #854d0e; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">⚠ Average Value</span>
-            
             <span style="background: #fee2e2; color: #991b1b; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">✖ Hardware Glitches</span>
             <span style="background: #fee2e2; color: #991b1b; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">✖ Poor Support</span>
             <span style="background: #fee2e2; color: #991b1b; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">✖ Outdated Software</span>
