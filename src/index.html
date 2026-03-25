@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmniTech Analytics | Product Portfolio Optimization</title>
+    <!-- Google Fonts for typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="app" class="dashboard-layout">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar" id="sidebar">
+            <!-- Populated by JS -->
+        </aside>
+
+        <!-- Main Content Area -->
+        <div class="main-wrapper">
+            <!-- Header section -->
+            <header class="topbar">
+                <div class="header-titles">
+                    <h1>Decision Support Dashboard</h1>
+                    <p class="subtitle">Consumer Sentiment Analytics for Product Portfolio Optimization</p>
+                </div>
+                <div class="user-profile">
+                    <div class="avatar">EX</div>
+                    <span>Executive View</span>
+                </div>
+            </header>
+
+            <!-- Page Content -->
+            <main class="content-area" id="main-content">
+                <!-- Pages will be rendered here -->
+            </main>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="data/mockData.js"></script>
+    <script src="components/Navigation.js"></script>
+    <script src="components/KPICard.js"></script>
+    <script src="components/ChartPlaceholder.js"></script>
+    <script src="components/SentimentTable.js"></script>
+    
+    <!-- Pages -->
+    <script src="pages/Overview.js"></script>
+    <script src="pages/ProductComparison.js"></script>
+    <script src="pages/FeatureInsights.js"></script>
+    <script src="pages/ProductDetail.js"></script>
+    <script src="pages/BacklashRisk.js"></script>
+    <script src="pages/ConsumerLanguage.js"></script>
+    <script src="pages/Recommendation.js"></script>
+
+    <!-- Main App Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
