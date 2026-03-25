@@ -275,7 +275,7 @@ def main():
                     
                 st.markdown(f'''
                 <div style="border-left: 3px solid #ef4444; background: #ffffff; padding: 14px 18px; margin-bottom: 12px; border-radius: 4px; border: 1px solid #e5e7eb; border-left: 4px solid #ef4444; font-size: 0.9rem; color: #374151; box-shadow: 0 1px 2px rgba(0,0,0,0.02);">
-                    "{text}" <br><span style="color: #9ca3af; font-size: 0.75rem; font-weight: 600; text-transform: uppercase;">— {row.get('product', 'Unknown Product')}</span>
+                    "{text}" <br><span style="color: #9ca3af; font-size: 0.75rem; font-weight: 600; text-transform: uppercase;">— {row.get('product', 'Unknown')}  •  VADER: {score}</span>
                 </div>
                 ''', unsafe_allow_html=True)
         else:
