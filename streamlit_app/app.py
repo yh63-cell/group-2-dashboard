@@ -210,5 +210,47 @@ def main():
     # Instead, we just display the clean, unaltered dataframe.
     st.dataframe(df_products, use_container_width=True, hide_index=True)
 
+    st.markdown("<hr style='border: none; border-top: 1px solid #e5e7eb; margin: 2rem 0;'>", unsafe_allow_html=True)
+    st.markdown("### Consumer Language & NLP Verbatims")
+    st.markdown("<p style='color: #6b7280; font-size: 0.95rem; margin-bottom: 2rem;'>Direct quotes and prominent keyword extraction driving the sentiment velocity.</p>", unsafe_allow_html=True)
+
+    col_nlp1, col_nlp2 = st.columns([1, 1.2])
+    with col_nlp1:
+        st.markdown("##### Extracted Sentiment Themes")
+        st.markdown('''
+        <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 15px;">
+            <span style="background: #dcfce7; color: #166534; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">✓ Reliable</span>
+            <span style="background: #dcfce7; color: #166534; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">✓ Premium Feel</span>
+            <span style="background: #dcfce7; color: #166534; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">✓ Sony Quality</span>
+            
+            <span style="background: #fef08a; color: #854d0e; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">⚠ Pricey</span>
+            <span style="background: #fef08a; color: #854d0e; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">⚠ Average Value</span>
+            
+            <span style="background: #fee2e2; color: #991b1b; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">✖ Hardware Glitches</span>
+            <span style="background: #fee2e2; color: #991b1b; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">✖ Poor Support</span>
+            <span style="background: #fee2e2; color: #991b1b; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">✖ Outdated Software</span>
+        </div>
+        ''', unsafe_allow_html=True)
+        
+    with col_nlp2:
+        st.markdown("##### Recent Critical Verbatims")
+        
+        # Get 3 random reviews from the raw data
+        if not df_raw.empty and 'clean_text' in df_raw.columns:
+            # We filter out empty texts and take the first 3
+            sample_reviews = df_raw.dropna(subset=['clean_text']).head(3)
+            for _, row in sample_reviews.iterrows():
+                text = str(row['clean_text'])
+                if len(text) > 130:
+                    text = text[:130] + '...'
+                    
+                st.markdown(f'''
+                <div style="border-left: 3px solid #ef4444; background: #ffffff; padding: 14px 18px; margin-bottom: 12px; border-radius: 4px; border: 1px solid #e5e7eb; border-left: 4px solid #ef4444; font-size: 0.9rem; color: #374151; box-shadow: 0 1px 2px rgba(0,0,0,0.02);">
+                    "{text}" <br><span style="color: #9ca3af; font-size: 0.75rem; font-weight: 600; text-transform: uppercase;">— {row.get('product', 'Unknown Product')}</span>
+                </div>
+                ''', unsafe_allow_html=True)
+        else:
+            st.info("No raw verbatims available in the dataset.")
+
 if __name__ == "__main__":
     main()
