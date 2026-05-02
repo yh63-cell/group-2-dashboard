@@ -1,0 +1,612 @@
+comment_id,product,period,comment,aspect,sentiment,justification
+0,google_glass,after,"Being one of the first 350 on Google+, I was offered these to try. I didn't get them just because the camera was constan",Product Quality,Negative,"camera was constantly on in the first release, hence the 4-5 hour battery life"
+0,google_glass,after,"Being one of the first 350 on Google+, I was offered these to try. I didn't get them just because the camera was constan",Adoption Ability,Negative,privacy concerns about Google monitoring user activity
+1,google_glass,after,Neither one of these problems seem to be a problem anymore,Product Quality,Positive,problems are no longer an issue
+2,google_glass,after,I want those apple glasses now just so I can ignore my boring classes at school. (When quarantine is over),Adoption Ability,Positive,want those apple glasses now
+2,google_glass,after,I want those apple glasses now just so I can ignore my boring classes at school. (When quarantine is over),Market Demand,Neutral,ignore my boring classes at school
+3,google_glass,after,"Apple vision also not fashionable, who tf going to walk on street wearing that bulky device",Product Quality,Negative,not fashionable
+3,google_glass,after,"Apple vision also not fashionable, who tf going to walk on street wearing that bulky device",Market Demand,Negative,who tf going to walk on street wearing that bulky device
+6,google_glass,after,Just because Google stumbled here does not mean that this type of tech won't continue to be developed.,Product Quality,Negative,Google stumbled here
+6,google_glass,after,Just because Google stumbled here does not mean that this type of tech won't continue to be developed.,Market Demand,Negative,this type of tech won't continue to be developed
+7,google_glass,after,"That’s insane people spent $1,500+ and they are just shutting it down. I hope people sue",Price/Value,Negative,"$1,500+ and they are just shutting it down"
+7,google_glass,after,"That’s insane people spent $1,500+ and they are just shutting it down. I hope people sue",Product Quality,Negative,implies product quality issues leading to discontinuation
+8,google_glass,after,"Carrying a GPS tracker, always on microphone, and camera everywhere is creepy?  Do these people not have phones?",Product Quality,Negative,"The user is questioning the 'creepiness' of the product's features, implying a negative perception of its design or functionality."
+8,google_glass,after,"Carrying a GPS tracker, always on microphone, and camera everywhere is creepy?  Do these people not have phones?",Adoption Ability,Neutral,"This is a rhetorical question implying that the features are standard and should be easily adopted, but it doesn't directly praise or criticize the product's adoption potential."
+9,google_glass,after,"I attended the first ""Glass Roadshow"" even in Durham, North Carolina (still have the poster from it.) Any interest I had",Product Quality,Negative,Any interest I had in the device evaporated with the 10 minutes hands-on demo we got when taking a picture was the only thing that I could get it to do remotely reliably
+9,google_glass,after,"I attended the first ""Glass Roadshow"" even in Durham, North Carolina (still have the poster from it.) Any interest I had",Product Quality,Negative,taking a picture was the only thing that I could get it to do remotely reliably
+9,google_glass,after,"I attended the first ""Glass Roadshow"" even in Durham, North Carolina (still have the poster from it.) Any interest I had",Product Quality,Neutral,I don't know if the user experience ever improved
+10,google_glass,after,I saw these back then and i really wanted one,Market Demand,Positive,user wanted the product
+11,google_glass,after,"My biggest complain after a month’s usage is, it really hurt my eye/eyes. Not only my right eye right behind the glass, ",Product Quality,Negative,"it really hurt my eye/eyes. Not only my right eye right behind the glass, but also the coordination between both eyes. It’s impossible not to get lazy eyes"
+11,google_glass,after,"My biggest complain after a month’s usage is, it really hurt my eye/eyes. Not only my right eye right behind the glass, ",Timing/Innovation,Negative,missed what’s right in front of their noses
+11,google_glass,after,"My biggest complain after a month’s usage is, it really hurt my eye/eyes. Not only my right eye right behind the glass, ",Market Demand,Negative,sad for its failure
+12,google_glass,after,I gave a thumbs down for having ads and a promo at the start of the video. Other than that thanks for the video. [Also y,Product Quality,Negative,having ads and a promo at the start of the video
+12,google_glass,after,I gave a thumbs down for having ads and a promo at the start of the video. Other than that thanks for the video. [Also y,Product Quality,Negative,stole your logo from skype
+13,google_glass,after,Why didnt they make it look like actual specs?,Product Quality,Negative,Why didnt they make it look like actual specs?
+14,google_glass,after,i still can't imagine how it is to wear one of those,Adoption Ability,Negative,commenter cannot imagine using the product
+15,google_glass,after,I still use my google glass and even more as of recently since they just passed a law on hands-free cell phones so I can,Adoption Ability,Positive,still use my google glass and even more as of recently
+15,google_glass,after,I still use my google glass and even more as of recently since they just passed a law on hands-free cell phones so I can,Market Demand,Positive,new law increases demand for hands-free phone calls via Google Glass
+16,google_glass,after,I remember when they came out and reminded me of DS 9 . The Cardassians wore them in combat .,Timing/Innovation,Neutral,comparison to a popular sci-fi show
+16,google_glass,after,I remember when they came out and reminded me of DS 9 . The Cardassians wore them in combat .,Product Quality,Neutral,reference to a fictional use case
+17,google_glass,after,"Legit, still want one of these",Market Demand,Positive,still want one of these
+18,google_glass,after,"the concept was pretty cool though, this is the form that the vision pro should've had",Timing/Innovation,Positive,the concept was pretty cool though
+18,google_glass,after,"the concept was pretty cool though, this is the form that the vision pro should've had",Product Quality,Positive,this is the form that the vision pro should've had
+20,google_glass,after,7:42 bringus studios could probably install steamos on it if he got his hands on one,Adoption Ability,Positive,could probably install steamos on it
+21,google_glass,after,"As someone who wears glasses, I can't imagine lugging that lobsided brick on my face 24/7",Product Quality,Negative,can't imagine lugging that lobsided brick on my face 24/7
+22,google_glass,after,The problem is that they were about 10 years too early at least for consumers. A lot of tech gets filtered down from gov,Timing/Innovation,Negative,they were about 10 years too early at least for consumers
+22,google_glass,after,The problem is that they were about 10 years too early at least for consumers. A lot of tech gets filtered down from gov,Adoption Ability,Negative,They should’ve started with businesses and the government first
+22,google_glass,after,The problem is that they were about 10 years too early at least for consumers. A lot of tech gets filtered down from gov,Market Demand,Negative,"apple will likely release its own version of glass soon and achieve the success that Google wanted, 10 years after Google tried"
+23,google_glass,after,I just remembered this product.,Market Demand,Neutral,"User is simply recalling the product, no sentiment expressed about its demand or quality."
+24,google_glass,after,I never believed the hype!,Market Demand,Negative,never believed the hype
+25,google_glass,before,"woooww.... I can't wait to try the new google eyelids.
+
+
+
+
+
+MY EYYYEEESSSS!!!!!!!",Product Quality,Negative,MY EYYYEEESSSS!!!!!!!
+26,google_glass,before,"A head mounted camera has already been done, they use them in a lot of sports already. goggle cams are $200 and you can ",Timing/Innovation,Negative,The idea of a head-mounted camera is not new and is already used in sports.
+26,google_glass,before,"A head mounted camera has already been done, they use them in a lot of sports already. goggle cams are $200 and you can ",Price/Value,Neutral,States the price and availability without expressing a positive or negative opinion.
+27,google_glass,before,This has the exact amount of views as their subscribers,Market Demand,Neutral,exact amount of views as their subscribers
+29,google_glass,before,The potential is amazing; it will be interesting to see how this concept develops. Love it.,Timing/Innovation,Positive,The potential is amazing
+29,google_glass,before,The potential is amazing; it will be interesting to see how this concept develops. Love it.,Product Quality,Positive,Love it
+30,google_glass,before,OH WAIT I CAN MAKE MY OWN FIRST PERSON SHOOTER WTH THESE YAAAAAAAAAY,Adoption Ability,Positive,User is excited about the ability to create their own content with the product.
+31,google_glass,before,Putting a camera on the edge of each lens would be cool. You could stream live 3-D footage of what people are seeing.,Timing/Innovation,Positive,Putting a camera on the edge of each lens would be cool
+31,google_glass,before,Putting a camera on the edge of each lens would be cool. You could stream live 3-D footage of what people are seeing.,Adoption Ability,Positive,You could stream live 3-D footage of what people are seeing
+32,google_glass,before,all the good talent pooped out ijustine,Product Quality,Negative,good talent pooped out
+34,google_glass,before,I love how Anthony says Ian is late when he's only a minute off time :),Timing/Innovation,Positive,sarcasm about lateness
+35,google_glass,before,"its more then that, its a mix of gps, google search and texting plus a few other things as well",Adoption Ability,Neutral,describes features without expressing opinion
+36,google_glass,before,"I wish this actually caught on, 9 years later and it still would be amazing to have",Market Demand,Negative,wish this actually caught on
+36,google_glass,before,"I wish this actually caught on, 9 years later and it still would be amazing to have",Timing/Innovation,Positive,9 years later and it still would be amazing to have
+37,google_glass,before,"These will be one of 'those' trends soon, even though people are like ugh it's stupid...",Market Demand,Negative,implies a trend that will be disliked or short-lived
+37,google_glass,before,"These will be one of 'those' trends soon, even though people are like ugh it's stupid...",Market Demand,Negative,explicitly states negative public opinion
+38,google_glass,before,Launched ahead of its  time...,Timing/Innovation,Positive,Launched ahead of its time
+39,google_glass,before,"“The photo and video quality are really pretty good.”
+― Marques Brownlee, 2013",Product Quality,Positive,The photo and video quality are really pretty good
+40,google_glass,before,im so buying this is gonna be awesome,Market Demand,Positive,so buying this is gonna be awesome
+41,google_glass,before,"10 years? How? Jeez…. 
+Smosh was so great..",Product Quality,Positive,Smosh was so great
+42,google_glass,before,Best explanation of Glass that I've found anywhere.  Great job!,Product Quality,Positive,Best explanation of Glass that I've found anywhere
+42,google_glass,before,Best explanation of Glass that I've found anywhere.  Great job!,Product Quality,Positive,Great job!
+43,google_glass,before,"Wish this became a successful idea, too ahead of its time, looks so cool even for todays standards a decade later (I fee",Market Demand,Negative,Wish this became a successful idea
+43,google_glass,before,"Wish this became a successful idea, too ahead of its time, looks so cool even for todays standards a decade later (I fee",Timing/Innovation,Positive,too ahead of its time
+43,google_glass,before,"Wish this became a successful idea, too ahead of its time, looks so cool even for todays standards a decade later (I fee",Product Quality,Positive,looks so cool even for todays standards a decade later
+44,google_glass,before,"This product was probably 10-15 years ahead of its time. There just wasn't enough AR software at the time, or Lidar, to ",Timing/Innovation,Positive,This product was probably 10-15 years ahead of its time
+44,google_glass,before,"This product was probably 10-15 years ahead of its time. There just wasn't enough AR software at the time, or Lidar, to ",Market Demand,Negative,"There just wasn't enough AR software at the time, or Lidar, to truly create a ""metaverse"""
+45,google_glass,before,very nice! but they all have a go pro with them..,Product Quality,Positive,very nice!
+46,google_glass,before,"Honestly, the only thing we want these to do is to scan the world around us. Street signs, people, etc. We want it full ",Adoption Ability,Positive,user desires for the product's functionality
+48,google_glass,before,the nerve gear is what we need,Market Demand,Positive,the nerve gear is what we need
+49,google_glass,before,Last time I was this late Google Glass was relevant,Timing/Innovation,Negative,"Implies Google Glass was relevant a long time ago, suggesting it is no longer relevant or was a past trend."
+50,google_plus,after,I hated Google plus because it forced me to join without my consent and the ability to use YouTube. Felt like a hostage.,Adoption Ability,Negative,forced me to join without my consent
+50,google_plus,after,I hated Google plus because it forced me to join without my consent and the ability to use YouTube. Felt like a hostage.,Product Quality,Negative,Felt like a hostage
+52,google_plus,after,has google+ become a mixture of tinder and tumblr with some deviantart in it?,Product Quality,Neutral,describes the platform's features
+53,google_plus,after,I’ve met so many great people from this site. The many memories i’ve had there were more than just to cherish. Now its g,Adoption Ability,Positive,met so many great people from this site
+53,google_plus,after,I’ve met so many great people from this site. The many memories i’ve had there were more than just to cherish. Now its g,Product Quality,Positive,The many memories i’ve had there were more than just to cherish
+53,google_plus,after,I’ve met so many great people from this site. The many memories i’ve had there were more than just to cherish. Now its g,Product Quality,Negative,Now its gone. My home is gone.
+54,google_plus,after,Im pretty close to giving up the Internet all together just to remove Google from my life,Market Demand,Negative,"User is willing to give up internet to avoid Google products, indicating extreme dissatisfaction and lack of demand for Google services."
+55,google_plus,after,"5:30 i don’t think anyone will get this, but this person has an ibuki mioda profile picture and it’s so painfully accura",Adoption Ability,Negative,i don’t think anyone will get this
+56,google_plus,after,You should have reviewed the 'draw my oc' community. What a sight.,Market Demand,Neutral,"comment refers to a community, not a product"
+58,google_plus,after,"It's the 2nd, Google + is still here and alive",Market Demand,Positive,Google + is still here and alive
+59,google_plus,after,"The amount of ""uwu"" in Google+ is poisonous.",Product Quality,Negative,"The amount of ""uwu"" in Google+ is poisonous"
+60,google_plus,after,About damn time! Get that crap outta here,Timing/Innovation,Positive,About damn time!
+60,google_plus,after,About damn time! Get that crap outta here,Product Quality,Negative,Get that crap outta here
+61,google_plus,after,Oh man... my Nexus S and Google + in 2011 was such a fun experience. Google + was fun but just always an odd kinda thing,Product Quality,Positive,my Nexus S and Google + in 2011 was such a fun experience
+61,google_plus,after,Oh man... my Nexus S and Google + in 2011 was such a fun experience. Google + was fun but just always an odd kinda thing,Product Quality,Neutral,Google + was fun but just always an odd kinda thing to me
+61,google_plus,after,Oh man... my Nexus S and Google + in 2011 was such a fun experience. Google + was fun but just always an odd kinda thing,Adoption Ability,Negative,had a learning curve to it
+62,google_plus,after,"I'm watching this before the shutdown
+I am still actively using g+, because I've been using it for so long and it feels ",Adoption Ability,Positive,"actively using g+, because I've been using it for so long and it feels like home"
+62,google_plus,after,"I'm watching this before the shutdown
+I am still actively using g+, because I've been using it for so long and it feels ",Product Quality,Positive,"g+ is better in a lot of ways than fb, twitter, tumblr or insta"
+62,google_plus,after,"I'm watching this before the shutdown
+I am still actively using g+, because I've been using it for so long and it feels ",Market Demand,Negative,devastated when I first heard the news in late 2018
+62,google_plus,after,"I'm watching this before the shutdown
+I am still actively using g+, because I've been using it for so long and it feels ",Product Quality,Negative,I will now be moving to other social media but I already know I'll never have what I had on g+
+63,google_plus,after,yo i remember g+ bc half of us weren’t allowed a insta or facebook and my parents had no clue what g+ was,Market Demand,Negative,Implies limited market demand due to external restrictions
+63,google_plus,after,yo i remember g+ bc half of us weren’t allowed a insta or facebook and my parents had no clue what g+ was,Adoption Ability,Negative,Indicates a lack of understanding or ease of adoption by the general public
+65,google_plus,after,I'm gonna miss this app,Adoption Ability,Negative,"User is sad about the app being discontinued, implying they adopted and liked it."
+66,google_plus,after,"Who going to get to 100m first?
+
+Pewdiepie- Give sensual loving to the like button
+
+Evil- Get vaccinated,     
+
+
+QUICKLY",Market Demand,Neutral,Question about market adoption
+67,google_plus,after,"NEXT
+why soothouse is shutting down",Market Demand,Negative,The shutdown implies a lack of market demand or viability.
+68,google_plus,after,"congrats on 2 million i guess 1,999,990 because i subbed you with 10 accounts",Market Demand,Neutral,congrats on 2 million i guess
+68,google_plus,after,"congrats on 2 million i guess 1,999,990 because i subbed you with 10 accounts",Market Demand,Negative,"1,999,990 because i subbed you with 10 accounts - implies artificial demand"
+69,google_plus,after,Google+: I don't feel so good,Product Quality,Negative,I don't feel so good
+70,google_plus,after,I hate the comments bit at the end. Is it necessary? It's waste of time.,Product Quality,Negative,hate the comments bit at the end
+70,google_plus,after,I hate the comments bit at the end. Is it necessary? It's waste of time.,Adoption Ability,Negative,Is it necessary? It's waste of time.
+72,google_plus,after,Flare TV congrats for 2M without any hardwork!!,Market Demand,Positive,congrats for 2M without any hardwork
+74,google_plus,after,No headphone jack?  I’ll just get an iPhone then.  Why bother?,Product Quality,Negative,Lack of a headphone jack is a negative product quality
+74,google_plus,after,No headphone jack?  I’ll just get an iPhone then.  Why bother?,Market Demand,Negative,Implies low market demand due to a missing feature
+75,google_plus,before,today i woke up and had this song stuck in my head for absolutely no reason. emma blackery your impact in my psyche is t,Product Quality,Positive,this song still slaps
+76,google_plus,before,when its coming out to the public,Market Demand,Neutral,question about public release date
+77,google_plus,before,"Everything I post on communities is marked as spam!
+Is it because I'm new?",Product Quality,Negative,Everything I post on communities is marked as spam!
+78,google_plus,before,Google+ is worse than myspace.. ....,Product Quality,Negative,worse than myspace
+79,google_plus,before,"I love this song :) It’s so catchy that I am humming it all the time.
+And I hope Google will learn from this never again",Product Quality,Positive,I love this song :) It’s so catchy that I am humming it all the time.
+79,google_plus,before,"I love this song :) It’s so catchy that I am humming it all the time.
+And I hope Google will learn from this never again",Product Quality,Negative,"never again to make updates this big that are still not even beta. If that stuff would at least work … WE WANT FIXES, NOT NEW BUGS."
+80,google_plus,before,How many years is this going to be in beta?,Adoption Ability,Negative,"Implies a long and potentially indefinite beta period, suggesting poor product readiness or a lack of commitment to a full release."
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,This is why Google + sucks
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,Both robots are old and battered.
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Neutral,describes the sounds R2 unit makes
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,soldiers holding shattered arms and faces
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,insulting description of a robot
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,robots described as hapless
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,description of the environment
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,harsh environmental conditions
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Market Demand,Positive,Luke Skywalker's heroic aspirations
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Positive,description of Luke Skywalker's appearance and demeanor
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,moisture vaporator described as battered
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,robot described as beatup
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,appears to be barely functioning and moves with jerky motions
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,smoke begins to pour out of every joint
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,smoldering robot to hum madly
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Neutral,"description of attire, no sentiment expressed"
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,Biggs has an air of cool that seems slightly phony
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,Camie grabs the binoculars away banging them against the building in the process.
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,"Hey, easy with those..."
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Market Demand,Negative,"The Rebellion is a long way from here. I doubt if the Empire would even fight to keep this system. Believe me Luke, this planet is a big hunk of nothing..."
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Adoption Ability,Negative,grumbling about Luke's ineptitude.
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,she is brutally shoved when she is unable to keep up with the briskly marching troops.
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,The two helpless astro-droids
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,clumsily work their way across the desert wasteland
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,My joints are almost frozen
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Market Demand,Negative,What a desolate place this is
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Adoption Ability,Positive,This way is much easier
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,malfunctioning little twerp
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Market Demand,Negative,This is all his fault!
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Adoption Ability,Negative,The user feels tricked into adopting a path that will not lead to success.
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Market Demand,Positive,"The character expresses relief and hope upon seeing a transport, indicating a need or demand for such a service."
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,The description of the flight and the damage to the Skyhopper suggests a negative experience with the vehicle's performance or durability.
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Adoption Ability,Negative,The consequence of the action (being grounded) implies a failure or negative outcome related to the use of the Skyhopper.
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Positive,"Despite the negative consequences, the user describes the experience as 'fantastic', indicating a positive perception of the event or the activity itself."
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Market Demand,Negative,sarcasm about Luke's reaction
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Adoption Ability,Negative,difficulty in finding contacts
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Market Demand,Positive,belief in the Rebellion's cause
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Positive,Uncle's blaster is effective
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Price/Value,Positive,Vaporators are profitable
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Market Demand,Negative,Empire's actions threaten commerce
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Market Demand,Negative,Empire's nationalization of commerce
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Price/Value,Negative,Empire's actions reduce uncle to a tenant
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Timing/Innovation,Neutral,acknowledges inevitable change
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,powerful magnetic ray shoots out of the rocks and engulfs him in an eerie glow
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,"His bright computer lights flicker off, then on, then off again"
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Market Demand,Neutral,"scurry three Jawas, no taller than Artoo"
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,They wear grubby cloaks and their faces are shrouded so only their glowing eyes can be seen
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,They hiss and make odd guttural sounds
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Adoption Ability,Neutral,heave the heavy robot onto their shoulders and carry him off down the trail
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Neutral,huge tank-like vehicle the size of a four-story house
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Neutral,weld a small disk on the side of Artoo
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,put him under a large tube on the side of the vehicle and the little robot is sucked into the giant machine
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Neutral,odd assortment of robots
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,battered captives
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,The shrouded little creatures smell horribly
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Market Demand,Negative,I have no need for a protocol droid
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Adoption Ability,Positive,Droid's ability to understand a specific language
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Positive,Droid's past experience with similar programming
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Adoption Ability,Positive,Droid's fluency in another language
+82,google_plus,before,"This is why Google + sucks:
+
+A long time ago, in a galaxy far, far, away...
+
+
+A vast sea of stars serves as the backdrop",Product Quality,Negative,Owen's frustration with the droid's speech
+83,google_plus,before,do a video on how iOS 6 apple maps are awesome,Product Quality,Positive,iOS 6 apple maps are awesome
+85,google_plus,before,"Bye, Bye Google+. RIP 2k18.",Adoption Ability,Negative,product discontinuation
+87,google_plus,before,"I think in this video the audio quality isn't as good as usual, quite some echo probably because you don't have the mic ",Product Quality,Negative,"audio quality isn't as good as usual, quite some echo"
+88,google_plus,before,"Neuer Trend im Internet: Gutes schlechter machen!
+Vergesst alle Trends die seither ""in"" waren. ""Besser machen"" war geste",Product Quality,Negative,Gutes schlechter machen
+88,google_plus,before,"Neuer Trend im Internet: Gutes schlechter machen!
+Vergesst alle Trends die seither ""in"" waren. ""Besser machen"" war geste",Product Quality,Negative,"mach es so schlecht, wie du nur kannst"
+88,google_plus,before,"Neuer Trend im Internet: Gutes schlechter machen!
+Vergesst alle Trends die seither ""in"" waren. ""Besser machen"" war geste",Product Quality,Negative,So wie Google es macht
+90,google_plus,before,So Google+ isn't just on my phone?,Adoption Ability,Neutral,question about product availability
+91,google_plus,before,this guy sounds like one of those Apple people who demo their software hahah.,Adoption Ability,Negative,comparing to 'Apple people' implies a negative stereotype about software demos
+92,google_plus,before,i don't agree its an awesome new re-design!!,Product Quality,Positive,awesome new re-design!!
+94,google_plus,before,Honestly this is still savage af,Product Quality,Negative,savage af implies something is bad or poorly done
+95,google_plus,before,I was a beta user of Google search when it first started.  I used gmail until I was getting weird things happening with ,Adoption Ability,Neutral,User was an early adopter of Google Search.
+95,google_plus,before,I was a beta user of Google search when it first started.  I used gmail until I was getting weird things happening with ,Product Quality,Negative,User experienced issues with Gmail.
+95,google_plus,before,I was a beta user of Google search when it first started.  I used gmail until I was getting weird things happening with ,Product Quality,Positive,User was impressed by the seamless integration and ease of use of Google services on Nexus 7.
+95,google_plus,before,I was a beta user of Google search when it first started.  I used gmail until I was getting weird things happening with ,Product Quality,Positive,User found the Nexus 7 experience to be 'pretty neat'.
+95,google_plus,before,I was a beta user of Google search when it first started.  I used gmail until I was getting weird things happening with ,Product Quality,Positive,User found the +1 feature to be 'pretty neat'.
+96,google_plus,before,this ending up back in my recommended in 2022 damn. i used to watch this pretty much every day with it being so catchy. ,Product Quality,Positive,so catchy
+96,google_plus,before,this ending up back in my recommended in 2022 damn. i used to watch this pretty much every day with it being so catchy. ,Product Quality,Positive,a good journey through memory lane
+97,google_plus,before,Can't WAIT to get in!,Adoption Ability,Positive,Can't WAIT to get in!
+99,google_plus,before,youtube keeps changing shit that doesnt need changed they are ruining youtube and our community,Product Quality,Negative,keeps changing shit that doesnt need changed
+99,google_plus,before,youtube keeps changing shit that doesnt need changed they are ruining youtube and our community,Market Demand,Negative,ruining youtube and our community
+100,stadia,after,Stadia more like DIDN'T Staydhere hahahaha,Adoption Ability,Negative,pun on the name implying it didn't last or gain adoption
+101,stadia,after,"Also, their ""Stadia"" jingle is annoying. Every time I got an ad for it I'd immediately mute it",Product Quality,Negative,"their ""Stadia"" jingle is annoying"
+101,stadia,after,"Also, their ""Stadia"" jingle is annoying. Every time I got an ad for it I'd immediately mute it",Market Demand,Negative,Every time I got an ad for it I'd immediately mute it
+102,stadia,after,"For a company that is supposed to know everything about you, its rather ironic that Stadia failed because they didn't un",Market Demand,Negative,Stadia failed because they didn't understand consumers
+103,stadia,after,This was like the most predictable cancellation of all time. Not sure how they thought it would be possible to achieve s,Market Demand,Negative,most predictable cancellation of all time
+103,stadia,after,This was like the most predictable cancellation of all time. Not sure how they thought it would be possible to achieve s,Timing/Innovation,Negative,Not sure how they thought it would be possible to achieve success in such a short timespan
+103,stadia,after,This was like the most predictable cancellation of all time. Not sure how they thought it would be possible to achieve s,Product Quality,Negative,Stadia had literally nothing going for it
+104,stadia,after,Cyberpunk 2077 was awesome on Stadia and by the fact that I had YouTube Premium family with someone who truly believed i,Product Quality,Positive,Cyberpunk 2077 was awesome on Stadia
+104,stadia,after,Cyberpunk 2077 was awesome on Stadia and by the fact that I had YouTube Premium family with someone who truly believed i,Price/Value,Positive,I could play it for free!
+105,stadia,after,It amazing how many projects that Phil Harrison has killed off or almost killed off in his career.,Product Quality,Negative,Phil Harrison has killed off or almost killed off projects
+106,stadia,after,I knew that this would fail from The First time I saw this. Imagine not owning games & paying a subscription for it on a,Market Demand,Negative,knew that this would fail from The First time I saw this
+106,stadia,after,I knew that this would fail from The First time I saw this. Imagine not owning games & paying a subscription for it on a,Price/Value,Negative,Imagine not owning games & paying a subscription for it on a console you own
+107,stadia,after,"Also, Stadia is still running on an outdated Vega 56 GPU, released five years ago for PC.",Product Quality,Negative,"outdated Vega 56 GPU, released five years ago for PC"
+108,stadia,after,"I loved my Stadia, and had absolutely no lag at all. I worked in a Google data center. Experience was flawless.",Product Quality,Positive,loved my Stadia
+108,stadia,after,"I loved my Stadia, and had absolutely no lag at all. I worked in a Google data center. Experience was flawless.",Product Quality,Positive,had absolutely no lag at all
+108,stadia,after,"I loved my Stadia, and had absolutely no lag at all. I worked in a Google data center. Experience was flawless.",Product Quality,Positive,Experience was flawless
+109,stadia,after,My gripe with stadia was you have to pay for a game at full price but not own/download it making it scummy because if it,Price/Value,Negative,pay for a game at full price but not own/download it making it scummy
+109,stadia,after,My gripe with stadia was you have to pay for a game at full price but not own/download it making it scummy because if it,Product Quality,Negative,if it gets removed frond the stadia playlist that’s something you’re never getting back and all progress gone forever
+109,stadia,after,My gripe with stadia was you have to pay for a game at full price but not own/download it making it scummy because if it,Price/Value,Positive,If it treated the games like a rental price so instead of paying for game to stream at full price it was closer to 1/3 the price it could’ve been somewhat successful
+109,stadia,after,My gripe with stadia was you have to pay for a game at full price but not own/download it making it scummy because if it,Market Demand,Positive,getting people who may not have the money to buy a lot of games to be able to buy some more for a lower price
+110,stadia,after,I still play with my stadia almost everyday. I still have hope for it,Adoption Ability,Positive,still play with my stadia almost everyday
+110,stadia,after,I still play with my stadia almost everyday. I still have hope for it,Market Demand,Positive,still have hope for it
+111,stadia,after,"I actually really like the stadia controller and love the clicking buttons. Thankfully, I was able to convert it into a ",Product Quality,Positive,really like the stadia controller and love the clicking buttons
+111,stadia,after,"I actually really like the stadia controller and love the clicking buttons. Thankfully, I was able to convert it into a ",Adoption Ability,Positive,able to convert it into a Bluetooth controller when they offered that
+112,stadia,after,I legitimately didn't know what Stadia was until this video. I got bombarded with adverts for it for a few years but non,Adoption Ability,Negative,user was unaware of the product's existence
+112,stadia,after,I legitimately didn't know what Stadia was until this video. I got bombarded with adverts for it for a few years but non,Market Demand,Negative,advertising failed to communicate the product's value proposition
+112,stadia,after,I legitimately didn't know what Stadia was until this video. I got bombarded with adverts for it for a few years but non,Market Demand,Negative,product failed to generate interest or curiosity
+112,stadia,after,I legitimately didn't know what Stadia was until this video. I got bombarded with adverts for it for a few years but non,Market Demand,Negative,lack of social buzz or discussion indicates low market interest
+113,stadia,after,Let’s just be sad about the people that sold all their shit counting on this. A lot of people lost a lot of shit and peo,Market Demand,Negative,people that sold all their shit counting on this
+113,stadia,after,Let’s just be sad about the people that sold all their shit counting on this. A lot of people lost a lot of shit and peo,Price/Value,Negative,A lot of people lost a lot of shit
+114,stadia,after,It’s sad because as a concept it allowed me to play games my mac could never have handled. Guess I’ll just have to try o,Adoption Ability,Positive,as a concept it allowed me to play games my mac could never have handled
+115,stadia,after,I genuinely liked this as a system. I played cyber punk on it when my PC has no way of doing so on its own hardware,Product Quality,Positive,I genuinely liked this as a system
+115,stadia,after,I genuinely liked this as a system. I played cyber punk on it when my PC has no way of doing so on its own hardware,Adoption Ability,Positive,played cyber punk on it when my PC has no way of doing so on its own hardware
+116,stadia,after,Only one reason needed: Phil Harrison.,Product Quality,Negative,"Implies Phil Harrison was the sole reason for failure, thus a negative aspect of product quality/management."
+117,stadia,after,it’s like google thought Stadia was like Gmail…they didn’t realise they also had to write the emails,Adoption Ability,Negative,Implies Google misunderstood the product and its market
+117,stadia,after,it’s like google thought Stadia was like Gmail…they didn’t realise they also had to write the emails,Product Quality,Negative,"Suggests a lack of essential features or support, comparing it unfavorably to Gmail's core functionality"
+118,stadia,after,"I remember wanting to buy this 2-3 months after it came out & the reviews were TERRIBLE, definitely scared me off",Product Quality,Negative,reviews were TERRIBLE
+118,stadia,after,"I remember wanting to buy this 2-3 months after it came out & the reviews were TERRIBLE, definitely scared me off",Adoption Ability,Negative,"reviews were TERRIBLE, definitely scared me off"
+119,stadia,after,this video is a one big lecture for Google Executives steering Stadia,Market Demand,Negative,"implies Stadia failed due to executive decisions, not user interest"
+120,stadia,after,It sure seems like this video needs to have more awareness in this community. Charlie is in-depth with what everything h,Market Demand,Negative,needs to have more awareness in this community
+120,stadia,after,It sure seems like this video needs to have more awareness in this community. Charlie is in-depth with what everything h,Product Quality,Positive,"Charlie is in-depth with what everything he has to say to us, and that’s impressive in many ways"
+121,stadia,after,"I didn't know MatPat simped for Stadia, ouch.",Market Demand,Negative,implies Stadia had low market demand or appeal
+122,stadia,after,Charlie confusing the Sega Saturn with the Genisis still physically hurts me.,Product Quality,Negative,confusing the Sega Saturn with the Genisis still physically hurts me
+123,stadia,after,"Charlie's use for ouya is hilarious, I used to have one and it ended up a paper weight for me",Product Quality,Negative,ended up a paper weight for me
+124,stadia,after,"CallMeKevin made a fantastic video about the Oyua. Obviously he made fun of it, but ended up turning the whole thing int",Product Quality,Positive,"ended up turning the whole thing into a positive since the Ouya can be turned in to an amazing, super portable Emulator game console"
+125,stadia,before,"Non-Paid reviews of Stadia: ""It's f*cking RAW!""
+ Paid promotion reviews of Stadia: ""Finally, some good f*cking food.""",Product Quality,Positive,unpaid review indicates high quality
+125,stadia,before,"Non-Paid reviews of Stadia: ""It's f*cking RAW!""
+ Paid promotion reviews of Stadia: ""Finally, some good f*cking food.""",Price/Value,Positive,paid promotion implies value
+126,stadia,before,All review that are not sponsored say its trash and they don't recommend it.,Product Quality,Negative,All review that are not sponsored say its trash
+126,stadia,before,All review that are not sponsored say its trash and they don't recommend it.,Market Demand,Negative,they don't recommend it
+127,stadia,before,I still like buying the disc n installing it,Adoption Ability,Positive,User preference for traditional installation method
+128,stadia,before,"""Best Case Scenario"" With all the Equipment that Google says you need to get optimum level experience.",Product Quality,Neutral,"Implies that even under ideal conditions, the experience might not be great."
+128,stadia,before,"""Best Case Scenario"" With all the Equipment that Google says you need to get optimum level experience.",Adoption Ability,Negative,Suggests a high barrier to entry or complex setup for optimal use.
+129,stadia,before,"Playing AC by streaming..... UHF, Google, boy, that seems INSANE and very impossible but you're Google, you're welcome t",Adoption Ability,Negative,seems INSANE and very impossible
+129,stadia,before,"Playing AC by streaming..... UHF, Google, boy, that seems INSANE and very impossible but you're Google, you're welcome t",Market Demand,Neutral,"you're Google, you're welcome to try — neutral on market demand"
+130,stadia,before,"“Sponsored by Google” Hmm, as Austin said, ""This is obviously not a biased review""",Product Quality,Negative,sarcasm implying the review is biased due to sponsorship
+131,stadia,before,"Anything related to internet, electronics etc. exist...
+Google:
+-I must take my place.",Market Demand,Neutral,Vague statement about existence of products in the category
+131,stadia,before,"Anything related to internet, electronics etc. exist...
+Google:
+-I must take my place.",Timing/Innovation,Neutral,Sarcastic response implying Google's tendency to enter and then discontinue products.
+132,stadia,before,"Get mugged in NY, Jake's walks by:
+""Hey, mugging is usually sometimes maybe not cool and sucks... Unless you are a mugge",Market Demand,Negative,mugging is usually sometimes maybe not cool and sucks
+132,stadia,before,"Get mugged in NY, Jake's walks by:
+""Hey, mugging is usually sometimes maybe not cool and sucks... Unless you are a mugge",Adoption Ability,Positive,Unless you are a mugger then I say 'do your thing'
+133,stadia,before,"2018 - gamer - “cannot have wireless mouse causes to much input delay”
+2019 - google - “stream your game from servers ha",Product Quality,Negative,input delay
+133,stadia,before,"2018 - gamer - “cannot have wireless mouse causes to much input delay”
+2019 - google - “stream your game from servers ha",Product Quality,Negative,servers half the world away implies latency
+134,stadia,before,"8:27 ""Google has been known to abandon services""
+Person gives a thumbs up to the camera",Adoption Ability,Negative,"commenter implies Google abandons services, which negatively impacts adoption ability"
+135,stadia,before,"""it's not for me""
+That is the most harsh thing I've heard Jake say about ANYTHING!",Adoption Ability,Negative,user states product is not for them
+136,stadia,before,Its very disrespectful to open up coffins to look at the dead,Product Quality,Negative,very disrespectful to open up coffins to look at the dead
+137,stadia,before,️This the system Soulja boy meant to drop️,Timing/Innovation,Neutral,This the system Soulja boy meant to drop
+138,stadia,before,"cant wait to try stadia on my 
+24kb download and 0.5kb upload",Product Quality,Negative,sarcasm about poor internet speed
+139,stadia,before,Let’s say goodbye. At least the controller will still work. I think.,Product Quality,Neutral,uncertainty about controller functionality implies potential quality issues
+140,stadia,before,"Hi, I'm from the future. This didn't age too well did it?",Timing/Innovation,Negative,didn't age too well
+141,stadia,before,"The problem is not if it's possible, the real problem will be accessibility, that's a lot of data to manage and many peo",Adoption Ability,Negative,"accessibility, that's a lot of data to manage"
+141,stadia,before,"The problem is not if it's possible, the real problem will be accessibility, that's a lot of data to manage and many peo",Market Demand,Negative,many people don't have the connection speed
+142,stadia,before,10:27 thank you for showing this! this is no big deal of a latency,Product Quality,Positive,no big deal of a latency
+143,stadia,before,This makes me happy because the other reviews where sponsors by stadia so hearing a non biased and honest opinion is ver,Market Demand,Positive,hearing a non biased and honest opinion is very uplifting
+144,stadia,before,Now. I'll play my OFFLINE games. Thanks.,Adoption Ability,Positive,user can still play offline games
+146,stadia,before,"Wow, this looks kinda neat.  I hope it doesn’t shut down in a few years, causing the developers to refund everyone every",Product Quality,Positive,looks kinda neat
+146,stadia,before,"Wow, this looks kinda neat.  I hope it doesn’t shut down in a few years, causing the developers to refund everyone every",Adoption Ability,Negative,hope it doesn’t shut down in a few years
+147,stadia,before,"Google : ""Stadia is the future of gaming""
+
+My 2mb internet : ""Well yes, but actually no""",Timing/Innovation,Positive,Stadia is the future of gaming
+147,stadia,before,"Google : ""Stadia is the future of gaming""
+
+My 2mb internet : ""Well yes, but actually no""",Adoption Ability,Negative,"The user's slow internet connection made Stadia unusable, implying poor adoption ability for users with less than ideal infrastructure."
+148,stadia,before,What? Throw the money for it?,Price/Value,Negative,Implies the price is too high or not worth it.
+149,stadia,before,If this happened..we are on next level of tech,Timing/Innovation,Positive,on next level of tech
