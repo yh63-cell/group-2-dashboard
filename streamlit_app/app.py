@@ -243,7 +243,7 @@ def plot_network(nodes_df, edges_df, product_name):
         hoverinfo='text',
         marker=dict(
             showscale=False,
-            color=COLOR_RED,
+            color=[COLOR_RED] * len(node_x),
             size=node_size,
             line_width=1.5,
             line_color='white'
@@ -364,7 +364,7 @@ def main():
     st.markdown("##### Engagement vs. Sentiment Correlation")
     st.markdown("<p style='color: #6b7280; font-size: 0.95rem; margin-bottom: 1rem;'>Plotting comment length (effort) against polarity to identify if highly engaged users trend negative.</p>", unsafe_allow_html=True)
     
-    fig_scatter = px.scatter(df_raw[df_raw['word_count'] < 300], x="word_count", y="polarity", color="product", 
+    fig_scatter = px.scatter(df_raw[df_raw['word_count'] < 300].reset_index(drop=True), x="word_count", y="polarity", color="product", 
                              opacity=0.6, marginal_y="violin", marginal_x="histogram",
                              color_discrete_map={"Google Stadia": COLOR_RED, "Google Glass": COLOR_BLACK, "Google+": COLOR_GREY})
     fig_scatter.update_layout(
